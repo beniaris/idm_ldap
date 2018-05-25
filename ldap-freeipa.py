@@ -53,7 +53,7 @@ LDAP_BASEDN = "dc=lab,dc=example,dc=com"
 # to anyone with access to this script
 # See http://www.freeipa.org/page/HowTo/LDAP (may be outdated)
 LDAP_BINDDN = "uid=inventory,cn=users,cn=accounts,dc=lab,dc=example,dc=com"
-LDAP_BINDPW = "needabetterpassword"
+LDAP_BINDPW = "r3dh4t1!"
 
 # Work needed:
 # * LDAPS support for FreeIPA
