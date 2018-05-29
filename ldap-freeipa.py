@@ -45,14 +45,14 @@ import sys
 LDAP_URI = "ldap://idm-server-beniaris.com"
 
 # EDIT: BaseDN of your FreeIPA server
-LDAP_BASEDN = "dc=lab,dc=example,dc=com"
+LDAP_BASEDN = "dc=beniaris,dc=com"
 
 # EDIT: DN and password of a service user on your FreeIPA server
 # (anonymous bind can't see all the necessary attributes)
 # should not be a normal end-user account since password is exposed
 # to anyone with access to this script
 # See http://www.freeipa.org/page/HowTo/LDAP (may be outdated)
-LDAP_BINDDN = "uid=inventory,cn=users,cn=accounts,dc=lab,dc=example,dc=com"
+LDAP_BINDDN = "uid=admin,cn=users,cn=compat,dc=beniaris,dc=com"
 LDAP_BINDPW = "r3dh4t1!"
 
 # Work needed:
