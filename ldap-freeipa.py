@@ -42,7 +42,7 @@ import sys
 ##
 
 # EDIT: LDAP URI of your FreeIPA server
-LDAP_URI = "ldap://utility.lab.example.com"
+LDAP_URI = "ldap://idm-server-beniaris.com"
 
 # EDIT: BaseDN of your FreeIPA server
 LDAP_BASEDN = "dc=lab,dc=example,dc=com"
