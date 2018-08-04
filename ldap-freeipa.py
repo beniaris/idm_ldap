@@ -52,7 +52,7 @@ LDAP_BASEDN = "dc=beniaris,dc=com"
 # should not be a normal end-user account since password is exposed
 # to anyone with access to this script
 # See http://www.freeipa.org/page/HowTo/LDAP (may be outdated)
-LDAP_BINDDN = "uid=admin,cn=users,cn=compat,dc=beniaris,dc=com"
+LDAP_BINDDN = "uid=admin,cn=users,cn=accounts,dc=beniaris,dc=com"
 LDAP_BINDPW = "r3dh4t1!"
 
 # Work needed:
